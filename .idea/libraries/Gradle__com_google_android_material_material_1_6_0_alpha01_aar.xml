@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.material:material:1.6.0-alpha01@aar">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/../../Download/gradle-7.3.3/caches/transforms-3/27e978d968aa817d3406d9fb9e07df4b/transformed/material-1.6.0-alpha01/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Download/gradle-7.3.3/caches/transforms-3/27e978d968aa817d3406d9fb9e07df4b/transformed/material-1.6.0-alpha01/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Download/gradle-7.3.3/caches/transforms-3/27e978d968aa817d3406d9fb9e07df4b/transformed/material-1.6.0-alpha01/res" />
+      <root url="file://$PROJECT_DIR$/../../Download/gradle-7.3.3/caches/transforms-3/27e978d968aa817d3406d9fb9e07df4b/transformed/material-1.6.0-alpha01/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../Download/gradle-7.3.3/caches/modules-2/files-2.1/com.google.android.material/material/1.6.0-alpha01/45d8b2c7188841d2216df895aea4054e4e2708d5/material-1.6.0-alpha01-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

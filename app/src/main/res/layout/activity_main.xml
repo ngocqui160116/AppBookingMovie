@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <androidx.appcompat.widget.Toolbar
+                app:title="Trang chính"
+                android:id="@+id/toolbarmanhinhchinh"
+                android:background="#1F56C3"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize">
+
+            </androidx.appcompat.widget.Toolbar>
+            <ViewFlipper
+                android:id="@+id/viewlipper"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                    <ImageView
+                        android:src="@drawable/banner1"
+                        android:id="@+id/imageviewBanner1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    </ImageView>
+
+                    <ImageView
+                        android:src="@drawable/banner2"
+                        android:id="@+id/imageviewBanner2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    </ImageView>
+
+                    <ImageView
+                        android:src="@drawable/banner3"
+                        android:id="@+id/imageviewBanner3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    </ImageView>
+
+            </ViewFlipper>
+            <LinearLayout
+                android:background="#73A2EA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:textSize="20sp"
+                    android:text="Phim mới nhất"
+                    android:textStyle="bold"
+                    android:textColor="#8A2010"
+                    android:layout_margin="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                </androidx.recyclerview.widget.RecyclerView>
+            </LinearLayout>
+        </LinearLayout>
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/navigatonview"
+            android:layout_gravity="start"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ListView
+                android:id="@+id/listviewmanhinhchinh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></ListView>
+        </com.google.android.material.navigation.NavigationView>
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+</LinearLayout>
